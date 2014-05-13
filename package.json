@@ -1,0 +1,46 @@
+{
+    "name": "gulp-bom-remover",
+    "version": "1.0.0",
+    "description": "Gulp extension to trim Binary Order Mark in the pipeline.",
+    "main": "./index.js",
+    "proxy": null,
+    "https-proxy": null,
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha --reporter spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/guiloo/gulp-bom-remover.git"
+    },
+    "keywords": [
+        "gulp",
+        "bom",
+        "remover"
+    ],
+    "author": {
+        "name": "Christophe Guillou",
+        "url": "https://github.com/guiloo"
+    },
+    "contributors": [
+        {
+            "name": "Christophe Guillou",
+            "email": "Christophe.Guillou@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/guiloo/gulp-bom-remover/issues"
+    },
+    "dependencies": {
+        "event-stream": "*",
+        "gulp-util": "*",
+        "lodash.assign": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    }
+}
